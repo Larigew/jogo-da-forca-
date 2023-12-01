@@ -90,10 +90,17 @@ body{
     font-size: 15px;
 }
 
-@media (min-width: 323px){
+@media (max-width: 323px){
     .teclas button{
         width: 15px;
         height: 15px;
+    }
+    #teclado{
+        width: 15px;
+        
+    }
+    .letras{
+        width: 2px;
     }
     #categoria{
         font-size: 17px;
