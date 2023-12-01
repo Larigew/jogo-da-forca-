@@ -90,10 +90,10 @@ body{
     font-size: 15px;
 }
 
-@media (min-width: 321px){
+@media (min-width: 323px){
     .teclas button{
-        width: 25px;
-        height: 25px;
+        width: 15px;
+        height: 15px;
     }
     #categoria{
         font-size: 17px;
@@ -102,8 +102,24 @@ body{
 
 @media (min-width: 376px){
     .teclas button{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
+    }
+    #palavra-secreta{
+        font-size: 18px;
+    }
+    .letras{
+        width: 10px;
+    }
+    #categoria{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 403px){
+    .teclas button{
+        width: 27px;
+        height: 27px;
     }
     #palavra-secreta{
         font-size: 18px;
